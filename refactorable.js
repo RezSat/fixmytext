@@ -445,7 +445,7 @@ function FixText() {
     text = text.replace(/—/g, "“");
     text = text.replace(/™/g, "{");
     text = text.replace(/š/g, "}");
-    text = text.replace(/ /g, "'");
+    //text = text.replace(/ /g, "'"); // WHY?
     text = text.replace(/•/g, "■");
     text = text.replace(/²/g, "●");
     text = text.replace(/Ã/g, "▲");
